@@ -1,0 +1,39 @@
+.skill-section {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .contact-para{
+      max-width: 90vw;
+  }
+  .familiar-tech-para{
+      font-weight: 500;
+      padding-top: 2rem;
+
+  }
+
+  /*-----------------------------*/
+  /*------Skill icon section---*/
+  /*----------------------------*/
+
+
+  .skill-icon{
+      height: 3rem;
+      width: 3rem;
+      border: .125rem solid #000;
+      cursor: pointer;
+  }
+  .skill-icon :hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.skill-icon :hover + .icon{
+    fill: #fff;
+}
+  .icon{
+      height: auto;
+      width: 2rem;
+  }

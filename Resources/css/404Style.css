@@ -1,0 +1,30 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+img{
+    height: 22rem;
+    width: auto;
+}
+p{
+    max-width: 90vw;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#005bff;
+    font-size: 1.3rem;
+    border-bottom: .1875rem solid transparent;
+    transition: 0.4s;
+}
+a:hover{
+    border-bottom: .1875rem solid #005bff;
+}
