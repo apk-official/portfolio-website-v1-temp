@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<!-- Google Tag Manager -->
+   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -99,8 +99,9 @@
       rel="stylesheet"
     />
     <!-- Styleshet  -->
-    <link rel="stylesheet" href="./Resources/css/style.css" />
-    <link rel="stylesheet" href="./Resources/css/about.css" />
+    <link rel="stylesheet" href="../../Resources/css/style.css" />
+    <link rel="stylesheet" href="../../Resources/css/aboutStyle.css" />
+    <link rel="stylesheet" href="../../Resources/css/portfolioStyle.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -129,51 +130,44 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu-element">
             <li class="nav-item ms-3">
-              <a class="nav-link active current home">Home</a>
+              <a  class="nav-link home active ">Home</a>
             </li>
             <li class="nav-item ms-3">
-              <a  class="nav-link active about">About</a>
+              <a  class="nav-link about active">About</a>
             </li>
             <li class="nav-item ms-3">
               <a  class="nav-link active portfolio">Portfolio</a>
             </li>
             <li class="nav-item ms-3">
-              <a  class="nav-link active skill">Skills</a>
+              <a class="nav-link skill active">Skills</a>
             </li>
             <li class="nav-item ms-3">
-              <a  class="nav-link active contact">Contact</a>
+              <a  class="nav-link active contact current">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- Modal -->
-<div class="modal fade " id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
-    <div class="modal-content modal-edit">
-      <div class="modal-header d-flex">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body modal-size">
-        <h4>Hello! 🎉</h4>
-        <img src="/Resources/images/Cat with a witch hat-cuate.svg" alt="Welcome modal image" class="welcome-image">
-       <p>Welcome to my short time portfolio website.My actual portfolio website is under Construction.Until its live, Happy surfing this😁</p>
-      </div>
-    </div>
-  </div>
-</div>
     <!-- Main Section  -->
-    <section class="home-section">
-      <div class="main-container">
-        <p><small>Hello I'm.</small></p>
-        <h1>ABHINAV P KUMAR</h1>
-        <p>
-          <small
-            >I am Frontend web developer and passionate UI/UX designer who is
-            interested in learning new skills.</small
-          >
-        </p>
-        <a href="./Resources/files/Resume Latest Updated.pdf" class="resume-btn" download>Resume</a>
+    <section class="contact-section d-flex">
+      <div class="main-container main-contact d-flex flex-column ">
+        <h1>Portfolio</h1>
+        <div class="social-handle-container d-flex flex-column  pe-md-0 align-items-center justify-content-around pe-sm-5 ">
+          <div class="link d-flex flex-column gap-lg-1 gap-2 align-items-center flex-lg-column mb-md-3 mb-sm-4">
+           <h4>CopyPastee</h4>
+           <p>One of my first project(Blogging site) using HTML5 and css3.<br><a href="https://copypastee.netlify.app/" class="social-handle-link text-sm-end">copypastee.netlify.app/</a></p>
+            
+          </div>
+          <div class="link d-flex flex-column gap-lg-1 gap-2 align-items-center flex-lg-column mb-md-3 mb-sm-4">
+            <h4 class="additional-gp">Glassmorphism Plugin</h4>
+            <p>A plugin for web developers to create glassmorphism effect easily.<br><a href="https://github.com/Vishnuxx/GlassMorphism-generator" class="social-handle-link text-sm-end">Glassmorphism plugin</a></p>
+             
+           </div>
+           <div class="link d-flex flex-column gap-lg-4 gap-2 align-items-center flex-lg-column mb-md-3 mb-sm-4">
+            <p class="ps-para"><u>ps:</u>Latest works and other contributions >> <a href="https://github.com/apk-official"><ion-icon name="open-outline"></ion-icon>Github</a> & My UI/UX works >> <a href="https://instagram.com/apk_official__?utm_medium=copy_link">instagram</a></p>
+           </div>
+          
+        </div>
       </div>
     </section>
     <!-- Bootstrap Bundle  -->
@@ -191,8 +185,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <!-- modal trigger  -->
-    <script src="../../Resources/Js/modal.js"></script>
     <!-- navigation js  -->
     <script src="/Resources/Js/navigation.js"></script>
   </body>

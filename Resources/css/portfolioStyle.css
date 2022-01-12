@@ -1,0 +1,33 @@
+h1{
+    margin-bottom:0;
+}
+.social-handle-link{
+    color: #3333fc;
+}
+.social-handle-link:hover{
+    color: #3333fc;
+}
+.ps-para{
+    padding-top: 5rem;
+}
+@media only screen and (max-width: 400px) {
+    .ps-para {
+      padding-top: 5rem;
+    }
+  }@media only screen and (max-width: 290px) {
+    .ps-para {
+      padding-top: 7rem;
+    }
+  }
+.ps-para a:link,
+.ps-para a:visited{
+    text-decoration: none;
+}
+.ps-para a:hover,
+.ps-para a:active{
+    font-weight: 500;
+}
+
+.additional-gp{
+    margin-top: 2rem;
+}
